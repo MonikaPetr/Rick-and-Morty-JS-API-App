@@ -1,0 +1,15 @@
+.outer {
+  display: inline-block;
+}
+img {
+  position: relative;
+  z-index: 1;
+}
+img:hover {
+  opacity: 0.2;
+}
+.inner {
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 10px;
+}
